@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Sahana</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#projects" class="navbar__links" id="projects-page" >Projects</a >
+          </li>
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__links" id="contact-page">Contact</a>
+          </li>          
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <p class="hero__heading" style="font-size: 40px;">Sahana Mohankumar</p>
+        <p  class = "main__content" style = "font-size: 30px;">South Brunswick High school: 11th grader</p>
+        
+      </div>
+    </div>
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main__container">
+          <div class="main__img--container">
+            <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+          </div>
+          <div class="main__content">
+            <h2>About Me</h2>
+            <p class="about-me-text">
+              I am a passionate high schooler who loves to learn and teach Computer Science. Currently, I am an active member of SBHS's Computer Science Academy and an executive member of SBHS's Girls Who Code club.
+            </p>
+            <div class="class-box"style="margin-top: 20px;">
+              <h3>Classes I've Taken:</h3>
+              <ul class="class-list">
+                <li>9th grade: Computer Science in the 21st Century</li>
+                <li>10th grade: AP Computer Science A</li>
+ 
+              </ul>
+            </div>
+            <div class="class-box"style="margin-top: 20px;">
+              <h3>Classes I'm Currently Taking:</h3>
+              <ul class="class-list">
+                <li>11th grade: AP Computer Science Principles, Mobile App Development, Virtual Reality: Game Design, AP Calculus AB, AP Physics 1</li>
+                <li>Next year, I plan to take Data Structures and as part of Computer Science Academy, successfully complete my capstone project</li>
+        
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+
+    <!-- SProjects Section -->
+    <div class="projects" id="projects">
+      <h1>My projects:</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Custom Colorways</h2>
+          <p>AI Powered technology</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Are you Ready?</h2>
+          <p>Take the lepa</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Full Gradients</h2>
+          <p>100 Combinations</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Infinite Choices</h2>
+          <p>1000's of colors</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+      </div>
+    </div>
+<!-- Contact Section -->
+<div class="contact" id="contact">
+    <h1>Contact:</h1>
+    <p>If you have any questions, feel free to get in touch me</p>
+    <ul>
+      <li>Email: sahanamohankumar23@gmail.com</li>
+    </ul>
+    <div class="contact-form">
+      <h2>Contact Form</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+  
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  
+
+    <script src="app.js"></script>
+    
+  </body>
+</html>
